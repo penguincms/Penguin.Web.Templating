@@ -4,7 +4,6 @@ using Penguin.Templating.Abstractions;
 using Penguin.Templating.Abstractions.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Globalization;
 using System.IO;
 using System.Linq;
