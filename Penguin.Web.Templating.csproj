@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.Templating</PackageProjectUrl>
-    <Version>5.0.1</Version>
+    <Version>5.0.5</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Web.Templating</AssemblyName>
     <RootNamespace>Penguin.Web.Templating</RootNamespace>
@@ -11,7 +11,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
-    <PackageReference Include="Penguin.Templating.Abstractions" Version="5.0.2-TADRIFB" />
-    <PackageReference Include="Penguin.Reflection.Extensions" Version="5.0.2-TADRIFB" />
+    <PackageReference Include="Penguin.Templating.Abstractions" Version="5.0.4" />
+    <PackageReference Include="Penguin.Reflection.Extensions" Version="5.0.4" />
   </ItemGroup>
 </Project>
