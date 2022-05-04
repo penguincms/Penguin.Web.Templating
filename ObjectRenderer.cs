@@ -126,7 +126,7 @@ namespace Penguin.Web.Templating
 
             object model = BuildPageModel(toGenerate);
 
-            string RelativePath = Path.Combine("Views", "Cache", e.GetType().Name, e.Guid.ToString().Replace("-", ""), FieldName, ((e.DateModified.Value - new DateTime(1970, 1, 1)).TotalMilliseconds.ToString(CultureInfo.CurrentCulture)) + ".cshtml");
+            string RelativePath = Path.Combine("Views", "Cache", e.GetType().Name, e.Guid.ToString().Replace("-", ""), FieldName, (e.DateModified.Value - new DateTime(1970, 1, 1)).TotalMilliseconds.ToString(CultureInfo.CurrentCulture) + ".cshtml");
 
             string AbsolutePath = Path.Combine(this.HostingEnvironment.ContentRootPath, RelativePath);
 
