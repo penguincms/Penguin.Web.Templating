@@ -2,6 +2,7 @@
 using Penguin.Reflection.Extensions;
 using Penguin.Templating.Abstractions;
 using Penguin.Templating.Abstractions.Interfaces;
+using Penguin.Web.Templating.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
